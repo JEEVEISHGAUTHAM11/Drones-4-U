@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Drone Store - Buy Drones</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        // Function to handle redirection when "Buy Now" button is clicked
+        function redirectToPurchase(productURL) {
+            window.location.href = productURL; // Redirect to the provided URL
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Drones 4 U</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Drones for Sale</a></li>
+                <li><a href="#reviews">Customer Reviews</a></li>
+                <li><a href="#newsletter">Stay Updated</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Drones Available for Purchase</h2>
+        <div class="product-grid">
+
+            <!-- Drone 1 -->
+            <div class="product-card">
+                <img src="https://wildclickz.com/wp-content/uploads/2022/01/phantom.jpg" alt="Phantom 4 Pro">
+                <div class="card-content">
+                    <h3>Phantom 4 Pro</h3>
+                    <p>Price: RM7,799.00</p>
+                    <p>The DJI Phantom 4 Pro is a high-end drone with a 20MP camera and 4K video recording capability.</p>
+                    <!-- Buy Now button with redirection -->
+                    <button onclick="redirectToPurchase('https://www.malaysiauavhub.com/product-page/phantom-4-pro-v2-0')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Drone 2 -->
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/51eae+6sQoL._AC_SL1500_.jpg" alt="Mavic Air 2">
+                <div class="card-content">
+                    <h3>Mavic Air 2</h3>
+                    <p>Price: RM3,299.00</p>
+                    <p>The Mavic Air 2 offers great portability and advanced features such as 48MP photos and 4K 60fps video.</p>
+                    <!-- Buy Now button with redirection -->
+                    <button onclick="redirectToPurchase('https://www.malaysiauavhub.com/product-page/mavic-air-2-fly-more-combo')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Drone 3 -->
+            <div class="product-card">
+                <img src="https://images-cdn.ubuy.qa/63c0f88fb71f635d5f2c51e8-dji-mini-2-ultralight-and-foldable.jpg" alt="DJI Mini 2">
+                <div class="card-content">
+                    <h3>DJI Mini 2</h3>
+                    <p>Price: RM1,719.00</p>
+                    <p>The DJI Mini 2 is an ultralight drone with 4K video capabilities, perfect for beginners.</p>
+                    <!-- Buy Now button with redirection -->
+                    <button onclick="redirectToPurchase('https://www.malaysiauavhub.com/product-page/dji-mini-2-fly-more-combo')">Buy Now</button>
+                </div>
+            </div>
+
+            <!-- Drone 4 -->
+            <div class="product-card">
+                <img src="https://m.media-amazon.com/images/I/51XCPYlL66L._AC_SY200_QL15_.jpg" alt="Inspire 2">
+                <div class="card-content">
+                    <h3>Inspire 2</h3>
+                    <p>Price: RM19,999.00</p>
+                    <p>The DJI Inspire 2 is a professional-grade drone with dual battery system and 5.2K video.</p>
+                    <!-- Buy Now button with redirection -->
+                    <button onclick="redirectToPurchase('https://www.djisunwaypyramid.com/collections/inspire-2/products/inspire-2')">Buy Now</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="reviews">
+            <div class="review">
+                <p>"The DJI Phantom 4 Pro is an incredible piece of technology. It helped me capture stunning aerial footage."</p>
+                <p>- John D.</p>
+            </div>
+            <div class="review">
+                <p>"I love the Mavic Air 2. It's so compact and easy to use. The quality of the photos is amazing!"</p>
+                <p>- Sarah W.</p>
+            </div>
+            <div class="review">
+                <p>"The DJI Mini 2 is the best drone for beginners. Affordable and has great features!"</p>
+                <p>- Chris P.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="newsletter">
+        <h2>Stay Updated</h2>
+        <p>Subscribe to our newsletter to receive the latest drone news, deals, and offers.</p>
+        <form action="#">
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Drones 4 U. All rights reserved.</p>
+        <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
